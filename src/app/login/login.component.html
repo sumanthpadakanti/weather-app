@@ -1,0 +1,16 @@
+<div class= "signin-details">
+    <h4>Welcome Please sign in</h4>
+    <div>
+      <label>User Name: </label> 
+      <input matInput  type="text" name= "username" [(ngModel)]= "userName" />
+    </div>          
+    <div>
+      <label>Password: </label> 
+      <input matInput  type="text" name="password" [(ngModel)]= "password" />
+    </div>
+    <div>
+      <input class="btn btn-primary" type="submit" value="Submit" (click)="Submit(userName, password)"/>
+      <input class="btn btn-secondary" type="button" value="Cancel" (click)="Cancel()"/>
+    </div>
+    <a href="/sign-up">Sign Up?</a>
+  </div>  

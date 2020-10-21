@@ -1,0 +1,26 @@
+.signup-details {
+    h4 { 
+        padding-right: 10%;
+        text-align: center;
+        margin-bottom: 5%;
+     }
+    width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 2% 8%;
+    div {
+      label { width: 32%;}
+    }
+   div:nth-last-child(2) {
+     margin: 2% 30%;  
+     input.btn-primary {
+       margin-right: 15px;
+     }
+   }
+   a {
+    padding-left: 30%;
+    text-decoration: underline;
+   }
+ }
